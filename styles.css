@@ -85,6 +85,8 @@ body {
     background-color: rgb(255,255,255);
     display: flex;
     flex-direction: column;
+    padding: 0rem 2rem 0.5rem;
+    font-weight: 550;
 }
 
 .header img {
@@ -95,9 +97,9 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
     align-items: center;
     gap: 3rem;
+    height: 50%;
 }
 
 .header-top .search {
@@ -112,13 +114,13 @@ body {
     border-radius: 16px;
     padding: 0px 10px;
     max-width: 400px;
+    cursor: pointer;
 }
 
 .user {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    font-weight: 550;
 }
 
 .user .header-icon {
@@ -126,6 +128,59 @@ body {
     height: 35px;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    gap: 1rem;
+}
+
+.header-bottom .greeting-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.greeting-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+img.large-header-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.greeting {
+    font-size: 0.65rem;
+}
+.header-bottom .buttons-container {
+    display: flex;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons-container button {
+    background-color: rgb(25,146,212);
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: lightblue;
 }
 
 .main {
