@@ -83,10 +83,54 @@ body {
 .header {
     grid-column: 2 / 3;
     background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
 }
 
+.header img {
+    height: 25px;
+    width: 25px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-top .search {
+    display: flex;
+    gap: 0.5rem;
+    flex: 1 1 0;
+}
+
+.header-top input {
+    background-color: rgb(226,232,240);
+    flex: 1;
+    border-radius: 16px;
+    padding: 0px 10px;
+    max-width: 400px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 550;
+}
+
+.user .header-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
 
 .main {
     border: 1px solid red;
     background-color: rgb(226,232,240);
 }
+
+
