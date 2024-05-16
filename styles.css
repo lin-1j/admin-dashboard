@@ -280,6 +280,40 @@ img.large-header-icon:hover {
     height: 20px;
 }
 
+.announcements {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements-card {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.announcement {
+    flex: 1;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.announcement > p {
+    font-size: 0.8rem;
+    color: rgb(108,108,108);
+}
+
+hr {
+    border: 1px solid lightgrey;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
 
 
 
