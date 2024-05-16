@@ -11,8 +11,6 @@ In this admin dashboard project I've utilised CSS Grid and flexbox to create a r
 * The project needs improvement for viewing on mobile phones.
 
 ## Credits
-
-Photo Credits:
 * [Icons](https://pictogrammers.com/library/mdi/)
 * [Trending profile pictures](https://www.flaticon.com/free-icons/animals)
 * [Cat profile picture](https://pixabay.com/photos/cat-feline-kitten-whiskers-ears-5646889/)
