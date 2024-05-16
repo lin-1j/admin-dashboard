@@ -148,6 +148,10 @@ body {
     border: 2px solid black;
 }
 
+.header-notifications:hover {
+    transform: scale(1.07);
+}
+
 .header-icon:hover {
     transform: scale(1.07);
 }
